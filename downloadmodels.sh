@@ -15,7 +15,7 @@ rename_downloaded_file() {
 }
 
 # Target directory for checkpoints
-checkpoints_target_dir="/home/studio-lab-user/ComfyUI/models"
+checkpoints_target_dir="/home/studio-lab-user/ComfyUI/models/checkpoints"
 mkdir -p "$checkpoints_target_dir"
 
 # Prompt user for checkpoints download link
